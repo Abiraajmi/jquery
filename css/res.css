@@ -1,0 +1,17 @@
+.akhi{
+	background-color: red;
+	width: 40%;
+	height: 100px;
+	display: none;
+	
+}
+.pakhi{
+	background-color: blue;
+	width: 20%;
+	height: auto;
+}
+.nuri{
+	background-color: pink;
+	width: 20%;
+	height: auto;
+}

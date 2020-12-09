@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/res.css">
+</head>
+<body>
+	<div class="btn">
+	<button><i class="fas fa-bars"></i></button>
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Photos</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">Content</a></li>
+		</ul>
+	</div>
+	
+	<div class="akhi">
+		<h1>Hi,Akhi</h1>
+		<div class="pakhi">
+			fdgdfg
+		</div>
+		<div class="nuri">
+			fdgdfg
+		</div>
+	</div>
+	<a href="#">Click</a>
+	<div class="hid">
+		<h1>I am akhi</h1>
+	</div>
+	<script src="jq/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('button').click(function(){
+				$('.nav').toggle();
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('a').click(function(){
+				$('.akhi').toggle(function(){
+					$('.hid').hide();
+				});
+			});
+		});
+	</script>
+</body>
+</html>
